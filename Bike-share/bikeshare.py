@@ -6,7 +6,7 @@ CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
 
-# check_input function to check the validity of user input 
+# check_input function to check the validity of user input
 def check_input(input_str, input_type):
     """
     check the validity of user input.
@@ -55,7 +55,7 @@ def get_filters():
 
     return city, month, day
 
-
+# GET the data from the user 
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
